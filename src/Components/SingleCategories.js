@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Single = () => {
+function SingleCategories() {
+    
     return (
         <div>
             
@@ -8,4 +9,4 @@ const Single = () => {
     )
 }
 
-export default Single
+export default SingleCategories
