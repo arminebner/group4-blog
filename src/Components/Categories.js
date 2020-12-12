@@ -7,7 +7,7 @@ function Categories( {movies} ) {
     
     return (
         <div>
-            <h1>hello from categories</h1>
+            <h1>Our favorite Movies</h1>
             <div>
                 <NavLink to="/singlecategories">
                     <img src='' alt="cinema"/>

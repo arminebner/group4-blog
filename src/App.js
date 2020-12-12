@@ -8,6 +8,7 @@ import Homepage from "./Components/Homepage";
 import Categories from "./Components/Categories";
 import SingleCategories from './Components/SingleCategories'
 import Post from './Components/Post';
+import './armin.css'
 
 
 function App() {
@@ -30,17 +31,22 @@ function App() {
 
   return (
       <div className="App">
-          <NavBar /> 
        {/*  <SingleMovie movies={movies}/> */}
        <Router>
+       <NavBar /> 
+       <div className="main-wrapper">
           <Switch>
             <Route exact path="/" component={Homepage} movies={movies}/>
-            <Route path="/categories" render={(props) => (
+            <Route path="/categories"> 
+              <Categories movies={movies} />
+            </Route>          
+           {/*  <Route path="/categories" render={(props) => (
               <Categories {...props} movies={movies} />
-            )}/>
+            )}/> */}
             <Route path="/singlecategories" component={SingleCategories} movies={movies}/>
             <Route exact path="/singlemovie" component={SingleMovie} movies={movies}/>
           </Switch>  
+          </div>
       </Router>
 {/*       <Router>
         
