@@ -11,6 +11,7 @@ import Post from './Components/Post';
 import './armin.css'
 
 
+
 function App() {
 
   const [movies, setMovies] = useState([]);
@@ -37,14 +38,14 @@ function App() {
        <div className="main-wrapper">
           <Switch>
             <Route exact path="/" component={Homepage} movies={movies}/>
-            <Route path="/categories"> 
+            <Route exact path="/categories"> 
               <Categories movies={movies} />
-            </Route>          
-           {/*  <Route path="/categories" render={(props) => (
-              <Categories {...props} movies={movies} />
-            )}/> */}
+            </Route>
+            <Route path="/categories/:id"> 
+              <SingleMovie movies={movies} />
+            </Route>
             <Route path="/singlecategories" component={SingleCategories} movies={movies}/>
-            <Route exact path="/singlemovie" component={SingleMovie} movies={movies}/>
+            {/* <Route exact path="/singlemovie" component={SingleMovie} movies={movies}/> */}
           </Switch>  
           </div>
       </Router>

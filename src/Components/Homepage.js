@@ -7,7 +7,7 @@ const Homepage = () => {
         <div>
             <h1>Group 4 favorite movies</h1>
             <NavLink to="/categories">
-                <img src={cinema2} alt="cinema"/>
+                <img className="hpimg" src={cinema2} alt="cinema"/>
             </NavLink>
         </div>
     )
