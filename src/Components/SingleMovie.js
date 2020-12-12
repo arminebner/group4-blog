@@ -1,12 +1,17 @@
-import React from 'react'
-import Post from './Post'
+import React from 'react';
+
+/* import Post from './Post' */
 
 
-function SingleMovie({ movies }) {
-    console.log(movies)
+function SingleMovie({match, movies}) {
+
+console.log(movies)
+console.log(match)
+
     return (
         <div>
-           {movies.map((item, index) => <Post item={item} key={index}/>)}
+            hello
+          {/*  {movies.map((item, index) => <Post item={item} key={index}/>)} */}
         </div>
     )
 }

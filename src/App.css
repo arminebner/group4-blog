@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.hpimg {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}

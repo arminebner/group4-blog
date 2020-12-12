@@ -7,7 +7,7 @@ import NavBar from './Components/Navbar'
 import Homepage from "./Components/Homepage";
 import Categories from "./Components/Categories";
 import SingleCategories from './Components/SingleCategories'
-import Post from './Components/Post';
+/* import Post from './Components/Post'; */
 
 
 function App() {
@@ -35,11 +35,14 @@ function App() {
        <Router>
           <Switch>
             <Route exact path="/" component={Homepage} movies={movies}/>
-            <Route path="/categories" render={(props) => (
-              <Categories {...props} movies={movies} />
-            )}/>
+            <Route exact path="/categories"> 
+              <Categories movies={movies} />
+            </Route>
+            <Route path="/categories/:id"> 
+              <SingleMovie movies={movies} />
+            </Route>
             <Route path="/singlecategories" component={SingleCategories} movies={movies}/>
-            <Route exact path="/singlemovie" component={SingleMovie} movies={movies}/>
+            {/* <Route exact path="/singlemovie" component={SingleMovie} movies={movies}/> */}
           </Switch>  
       </Router>
 {/*       <Router>

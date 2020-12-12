@@ -11,7 +11,7 @@ function Post({item}) {
             <div>{item.fields.stars}</div>
             <div>{item.fields.year}</div>
             <div>{item.fields.description}</div>
-            <img src={item.fields.image.fields.file.url} alt="movieimage"/>
+            <img  alt="movieimage"/>
         </div>
     )
 }
