@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+console.log(process.env.REACT_APP_SPACE_ID)
+console.log("test");
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
