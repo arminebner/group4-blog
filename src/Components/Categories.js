@@ -1,9 +1,9 @@
 import React from 'react';
-import { NavLink, useParams } from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 import Post from './Post';
 
-function Categories( {match} ) {
-    console.log('aus categories' + match.params);
+function Categories( {movies} ) {
+    
     
     return (
         <div>
@@ -20,7 +20,7 @@ function Categories( {match} ) {
                 </NavLink>  
             </div>
             <div>
-                {/* {props.map((item, index) => <Post item={item} key={index}/>)} */}
+                {movies.map((item, index) => <Post item={item} key={index}/>)}
             </div>
         </div>
     )
