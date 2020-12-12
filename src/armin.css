@@ -1,30 +1,43 @@
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+.navbar {
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(0, 0, 0);
 }
 
-@font-face {
-	font-family: Bebas-Regular;
-	src: url(./fonts/Bebas-Regular.ttf);
+.inner-container {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	gap: 40px;
 }
 
-body {
-	font-family: 'Bebas-Regular';
-	background-color: #232020;
+ul {
+	font-size: 1.7rem;
+	list-style: none;
+}
+
+.navbar-link {
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.2s ease-out;
+}
+
+.navbar-link:hover {
+	font-size: 2rem;
 }
 
 .lightbox {
-	width: 980px;
+	width: 540px;
 	height: 150px;
-	margin: 0 auto;
 }
 
 .letter-container {
 	display: flex;
 	justify-content: center;
 	background-color: rgb(255, 255, 255);
-	font-size: 200px;
+	font-size: 100px;
 	box-shadow: 5px 5px 100px rgb(231, 218, 100);
 }
 
@@ -32,6 +45,7 @@ body {
 	display: flex;
 	justify-content: center;
 	border: solid 3px #000;
-	width: 180px;
-	filter: drop-shadow(2px 2px 5px rgb(231, 218, 100));
+	width: 90px;
+	filter: drop-shadow(5px 5px 5px rgb(173, 163, 66));
+	color: #000;
 }
