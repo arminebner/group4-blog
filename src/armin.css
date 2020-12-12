@@ -1,0 +1,51 @@
+.navbar {
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(0, 0, 0);
+}
+
+.inner-container {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+
+ul {
+	font-size: 1.7rem;
+	list-style: none;
+}
+
+.navbar-link {
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.2s ease-out;
+}
+
+.navbar-link:hover {
+	font-size: 2rem;
+}
+
+.lightbox {
+	width: 540px;
+	height: 150px;
+}
+
+.letter-container {
+	display: flex;
+	justify-content: center;
+	background-color: rgb(255, 255, 255);
+	font-size: 100px;
+	box-shadow: 5px 5px 100px rgb(231, 218, 100);
+}
+
+.letter {
+	display: flex;
+	justify-content: center;
+	border: solid 3px #000;
+	width: 90px;
+	filter: drop-shadow(5px 5px 5px rgb(173, 163, 66));
+	color: #000;
+}
