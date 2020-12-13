@@ -1,8 +1,8 @@
 import React from 'react';
-import { NavLink} from 'react-router-dom';
-import Post from './Post';
+import {NavLink} from 'react-router-dom';
+/* import Post from './Post'; */
 
-function Categories( {movies} ) {
+function Categories({movies}) {
     
     
     return (
@@ -20,7 +20,8 @@ function Categories( {movies} ) {
                 </NavLink>  
             </div>
             <div>
-                {movies.map((item, index) => <Post item={item} key={index}/>)}
+                {movies.map((item, index) => (<NavLink to={`/categories/${index}`}><img key={index} src={item.fields.image.fields.file.url} alt="movies"/></NavLink>)
+              )}
             </div>
         </div>
     )

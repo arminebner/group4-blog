@@ -16,6 +16,12 @@ body {
 }
 
 .main-wrapper {
-	width: 65%;
+	width: 75%;
 	margin: 0 auto;
+}
+
+.hpimg {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
 }
