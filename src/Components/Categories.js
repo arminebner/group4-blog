@@ -6,7 +6,7 @@ function Categories( {movies} ) {
     
     
     return (
-        <div>
+        <div className='categories'>
             <h1>Our favorite Movies</h1>
             <div>
                 <NavLink to="/singlecategories">

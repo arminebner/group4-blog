@@ -1,3 +1,5 @@
+/*NavBar*/
+
 .navbar {
 	height: 200px;
 	display: flex;
@@ -49,3 +51,5 @@ ul {
 	filter: drop-shadow(5px 5px 5px rgb(173, 163, 66));
 	color: #000;
 }
+
+/*Categories*/
