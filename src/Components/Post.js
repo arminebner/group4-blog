@@ -18,8 +18,7 @@ function Post({item}) {
                 <div>{item.fields.description}</div>
                 <div>Rating: {item.fields.rating}</div>
                 <div>Director: {item.fields.director}</div>
-                <div>Stars: {item.fields.stars}</div>
-                 
+                <div>Stars: {item.fields.stars}</div>   
             </div>  
             {/* <img  alt="movieimage"/> */}
         </div>
