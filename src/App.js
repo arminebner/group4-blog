@@ -39,11 +39,8 @@ function App() {
             <Route exact path="/categories"> 
               <Categories movies={movies} />
             </Route>
-            <Route path="/categories/:id"> 
+            <Route path="/singlemovie/:id"> 
               <SingleMovie movies={movies} />
-            </Route>
-            <Route exact path="/singlecategories"> 
-              <Categories movies={movies} />
             </Route>
             <Route path="/singlecategories/:person">
               <SingleCategories movies={movies}/>
@@ -54,9 +51,6 @@ function App() {
   </div>
   );
 }
-
-/* 
-comment */
 
 
 export default App;
