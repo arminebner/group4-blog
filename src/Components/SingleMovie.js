@@ -8,16 +8,9 @@ function SingleMovie({movies}) {
   const {id} = useParams();
   console.log ({id});
     
-console.log({movies});
 
-const movieId = {id};
-console.log(movieId);
-/* const value = movieId.va
-console.log(value); */
 
-const test = "kathleen"
-
-const getsinglemovie = movies.filter (el => el.fields.person === test);
+const getsinglemovie = movies.filter (el => el.fields.numid === id);
 
 console.log(getsinglemovie)
 
