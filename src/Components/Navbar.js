@@ -18,9 +18,9 @@ const Navbar = () => {
                 <ul>
                     <NavLink className='navbar-link' to='/'><li>HOME</li></NavLink>
                     <NavLink className='navbar-link' to='/categories'><li>CATEGORIES</li></NavLink>
-                    <NavLink className='navbar-link' to='/singlecategorie/kathleen'><li>KATHLEEN</li></NavLink>
-                    <NavLink className='navbar-link' to='/singlecategorie/patricia'><li>PATRICIA</li></NavLink>
-                    <NavLink className='navbar-link' to='/singlecategorie/armin'><li>ARMIN</li></NavLink>
+                    <NavLink className='navbar-link' to='/singlecategories/kathleen'><li>KATHLEEN</li></NavLink>
+                    <NavLink className='navbar-link' to='/singlecategories/patricia'><li>PATRICIA</li></NavLink>
+                    <NavLink className='navbar-link' to='/singlecategories/armin'><li>ARMIN</li></NavLink>
                 </ul>
             </div>
         </div>

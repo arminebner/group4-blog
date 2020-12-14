@@ -42,8 +42,12 @@ function App() {
             <Route path="/categories/:id"> 
               <SingleMovie movies={movies} />
             </Route>
-            <Route path="/singlecategories" component={SingleCategories} movies={movies}/>
-            {/* <Route exact path="/singlemovie" component={SingleMovie} movies={movies}/> */}
+            <Route exact path="/singlecategories"> 
+              <Categories movies={movies} />
+            </Route>
+            <Route path="/singlecategories/:person">
+              <SingleCategories movies={movies}/>
+            </Route> 
           </Switch>  
       </div>
   </Router>

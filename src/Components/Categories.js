@@ -4,7 +4,8 @@ import {NavLink} from 'react-router-dom';
 
 function Categories({movies}) {
     
-    
+   
+  
     return (
         <div className='categories'>
             <h1>Our favorite Movies</h1>
@@ -20,7 +21,7 @@ function Categories({movies}) {
                 </NavLink>  
             </div>
             <div>
-                {movies.map((item, index) => (<NavLink to={`/categories/${index}`}><img key={index} src={item.fields.image.fields.file.url} alt="movies"/></NavLink>)
+                {movies.map((item, index) => (<NavLink to={`/categories/${item.fields.numid}`}><img key={index} src={item.fields.image.fields.file.url} alt="movies"/></NavLink>)
               )}
             </div>
         </div>
