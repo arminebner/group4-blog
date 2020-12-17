@@ -13,13 +13,28 @@ function Categories({movies}) {
             <h1 className='categories-favorite'>Our favorite Movies</h1>
             <div className='singlecategory-link'>
                 <NavLink to="/singlecategories/kathleen">
-                    <img src={cinema2} alt="cinema"/>
+                    <div className="image-container">
+                        <div className="image">
+                            <img className="hpimg" src={cinema2} alt="cinema"/> 
+                        </div>
+                        <h1 className="text">Kathleen</h1>
+                    </div>  
                 </NavLink>
                 <NavLink to="/singlecategories/patricia">
-                    <img src={cinema2} alt="cinema"/>
+                    <div className="image-container">
+                        <div className="image">
+                            <img className="hpimg" src={cinema2} alt="cinema"/> 
+                        </div>
+                        <h1 className="text">Patricia</h1>
+                    </div>  
                 </NavLink>
                 <NavLink to="/singlecategories/armin">
-                    <img src={cinema2} alt="cinema"/>
+                    <div className="image-container">
+                        <div className="image">
+                            <img className="hpimg" src={cinema2} alt="cinema"/> 
+                        </div>
+                        <h1 className="text">Armin</h1>
+                    </div>  
                 </NavLink>  
             </div>
             <div className="grid-container">
