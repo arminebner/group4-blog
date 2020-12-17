@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/group4-blog/static/css/main.087abd11.chunk.css",
+    "main.js": "/group4-blog/static/js/main.d8c88267.chunk.js",
+    "main.js.map": "/group4-blog/static/js/main.d8c88267.chunk.js.map",
+    "runtime-main.js": "/group4-blog/static/js/runtime-main.945a7120.js",
+    "runtime-main.js.map": "/group4-blog/static/js/runtime-main.945a7120.js.map",
+    "static/js/2.7189b35e.chunk.js": "/group4-blog/static/js/2.7189b35e.chunk.js",
+    "static/js/2.7189b35e.chunk.js.map": "/group4-blog/static/js/2.7189b35e.chunk.js.map",
+    "static/js/3.2d4cf082.chunk.js": "/group4-blog/static/js/3.2d4cf082.chunk.js",
+    "static/js/3.2d4cf082.chunk.js.map": "/group4-blog/static/js/3.2d4cf082.chunk.js.map",
+    "index.html": "/group4-blog/index.html",
+    "static/css/main.087abd11.chunk.css.map": "/group4-blog/static/css/main.087abd11.chunk.css.map",
+    "static/js/2.7189b35e.chunk.js.LICENSE.txt": "/group4-blog/static/js/2.7189b35e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/group4-blog/static/media/Bebas-Regular.90dabffd.ttf",
+    "static/media/cinema2.25915848.jpg": "/group4-blog/static/media/cinema2.25915848.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.945a7120.js",
+    "static/js/2.7189b35e.chunk.js",
+    "static/css/main.087abd11.chunk.css",
+    "static/js/main.d8c88267.chunk.js"
+  ]
+}
